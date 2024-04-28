@@ -43,7 +43,7 @@ def setup_faiss_index():
 @app.route('/upload', methods=['POST'])
 def upload():
     # Load a specific image
-    image_path = 'image.png'
+    image_path = '../image/image.png'
     from PIL import Image
 
     # Open the image
